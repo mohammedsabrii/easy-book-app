@@ -111,9 +111,7 @@ class LoginViewBlocConsumer extends StatelessWidget {
                   thickness: 1,
                   color: Colors.grey,
                 ),
-                const Align(
-                    alignment: Alignment.center,
-                    child: LogInWithSocialPlatforms()),
+                const Align(child: LogInWithSocialPlatforms()),
               ],
             ),
           ),

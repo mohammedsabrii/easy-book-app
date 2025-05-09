@@ -17,11 +17,14 @@ class PaymentCubit extends Cubit<PaymentState> {
     var data = await paymentRepo.makePayment(
         paymentIntentInputModel: paymentIntentInputModel);
     data.fold(
-      (failure) => emit(
-        StripePaymentFailure(
-          errorMassage: failure.toString(),
-        ),
-      ),
+      (failure) {
+        emit(
+          StripePaymentFailure(
+            errorMassage: failure.toString(),
+          ),
+        );
+        print(failure);
+      },
       (success) => emit(
         StripePaymentSuccess(),
       ),

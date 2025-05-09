@@ -16,7 +16,6 @@ class SettingsViewBody extends StatelessWidget {
         child: Column(
           spacing: 16,
           crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             const CustomAppBar(title: 'Settings'),
             const SizedBox(

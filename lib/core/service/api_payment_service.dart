@@ -3,8 +3,8 @@ import 'package:dio/dio.dart';
 class ApiPaymentService {
   final Dio dio = Dio(
     BaseOptions(
-      connectTimeout: Duration(seconds: 30),
-      receiveTimeout: Duration(seconds: 30),
+      connectTimeout: const Duration(seconds: 30),
+      receiveTimeout: const Duration(seconds: 30),
     ),
   );
 

@@ -19,8 +19,7 @@ class PaymentMethodsBlocConsumer extends StatelessWidget {
           isLoading = false;
         } else if (state is StripePaymentFailure) {
           Navigator.pop(context);
-          customShowSnackBar(context,
-              title: 'oops something went wrong please try again later ');
+          customShowSnackBar(context, title: state.errorMassage);
           isLoading = false;
         } else if (state is StripePaymentLoading) {
           isLoading = true;

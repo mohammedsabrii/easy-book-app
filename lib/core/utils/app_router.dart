@@ -64,19 +64,19 @@ abstract class AppRouter {
       ),
       GoRoute(
         path: kSettingsView,
-        builder: (context, state) => SettingsView(),
+        builder: (context, state) => const SettingsView(),
       ),
       GoRoute(
         path: kChangeNameView,
-        builder: (context, state) => ChangeNameView(),
+        builder: (context, state) => const ChangeNameView(),
       ),
       GoRoute(
         path: kChangeEmailView,
-        builder: (context, state) => ChangeEmailView(),
+        builder: (context, state) => const ChangeEmailView(),
       ),
       GoRoute(
         path: kChangePasswordView,
-        builder: (context, state) => ChangePasswordView(),
+        builder: (context, state) => const ChangePasswordView(),
       ),
     ],
   );

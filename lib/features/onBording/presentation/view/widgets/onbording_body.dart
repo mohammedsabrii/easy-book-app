@@ -31,7 +31,6 @@ class _OnbordingBodyState extends State<OnbordingBody> {
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CustomHeaderBlocBulider(pageIndex: pageIndex),
