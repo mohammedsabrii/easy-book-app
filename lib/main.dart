@@ -41,7 +41,7 @@ Future<void> main() async {
   await Hive.openBox<BookEntity>('favorites');
 
   Bloc.observer = SimpleBlocOpserer();
-  // runApp(DevicePreview(enabled: true, builder: (context) => const BookApp()));
+
   runApp(
     const BookApp(),
   );
@@ -102,8 +102,6 @@ class BookApp extends StatelessWidget {
       child: MaterialApp.router(
         theme: ThemeData.dark(),
         debugShowCheckedModeBanner: false,
-        // locale: DevicePreview.locale(context),
-        // builder: DevicePreview.appBuilder,
         routerConfig: AppRouter.router,
       ),
     );

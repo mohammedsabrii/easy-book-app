@@ -1,7 +1,7 @@
 import 'package:asay_book_app/core/utils/app_router.dart';
 import 'package:asay_book_app/core/widgets/custom_favorite_button.dart';
 import 'package:asay_book_app/features/home/domin/entity/book_entity.dart';
-import 'package:asay_book_app/features/home/presentation/view/widgets/item_detiles.dart';
+import 'package:asay_book_app/features/home/presentation/view/widgets/item_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive_flutter/adapters.dart';

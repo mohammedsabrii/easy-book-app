@@ -15,10 +15,4 @@ class ApiService {
     final response = await dio.get('$baseUrl/volumes/$bookId'); // Fixed URL
     return response.data;
   }
-
-  // Future<BookEntity> fetchBookById(String bookId) async {
-  //   final response = await dio.get('$baseUrl/$bookId');
-
-  //   return response.data;
-  // }
 }
