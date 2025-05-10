@@ -1,0 +1,2 @@
+D:/easy-book-app/android/app/.cxx/RelWithDebInfo/2i3s713g/x86/CMakeFiles/edit_cache.dir
+D:/easy-book-app/android/app/.cxx/RelWithDebInfo/2i3s713g/x86/CMakeFiles/rebuild_cache.dir
